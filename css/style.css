@@ -1,0 +1,934 @@
+@font-face {
+  src: url(../fonts/ariblk.ttf);
+  font-family: haba; }
+
+@font-face {
+  src: url(../fonts/PollerOne-Regular.ttf);
+  font-family: poller; }
+
+.mid{
+  width:60%;
+  margin: auto;
+}
+.logo {
+  margin-top: 50px; }
+
+.logo .logo-img img {
+  width: 5%;
+  height: auto;
+  margin: auto; }
+/* nav section starts here */
+nav {
+  background-color: #fff; }
+
+nav ul {
+  margin-top: 20px; }
+
+nav ul li a {
+  color: #000;
+  font-size: 14px;
+  font-family: haba;
+  margin: 0px 10px; }
+
+nav ul li a:hover {
+  color: #0ba39c; }
+
+nav button {
+  margin: auto; }
+
+nav button {
+  border: 1px solid black; }
+
+nav button span i {
+  color: #000;
+  text-align: center; }
+
+.navbar-collapse ul li {
+  text-align: center; }
+/* nav section ends here */
+/* INDEX.HTML PAGE STARTS HERE */
+/* about section starts here */
+.about {
+  margin-top: 50px; }
+
+.about .img img {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin: auto;
+  border: 2px solid #222; }
+
+.about .col-md-6:nth-child(2) .text {
+  margin-top: 200px; }
+
+.about .col-md-6:nth-child(2) .text h5 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 15px;
+  color: #252525;
+  margin-bottom: 30px; }
+
+.about .col-md-6:nth-child(2) .text p {
+  font-family: poppins;
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 50px; }
+.about h1{
+  text-align: center;
+  font-size:20px;
+  margin-top:50px;
+  color: #252525;
+}
+.about P{
+
+  text-align:justify;
+
+}
+.about a {
+  display: block;
+  margin: auto;
+  width: 148px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #252525;
+  font-family: arial;
+  color: #252525;
+  border-radius: 5px;
+  font-size: 13px; }
+
+.about a:hover {
+  border: 2px solid #000;
+  color: #000;
+  text-decoration: none; }
+/* about section ends here */
+
+/* service section starts here */
+.services {
+  margin-top: 100px;
+  padding-bottom: 100px; }
+
+.services .container .row {
+  width: 70%;
+  margin: auto; }
+
+.services h3 {
+  font-family: poller;
+  color: #252525;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+
+.services .row .card .cb1{
+  height:150px;
+  background-image: url(../img/s1.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  border:2px solid #333;
+}
+.services .row .card .cb2{
+  height:150px;
+  background-image: url(../img/s2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  border:2px solid #333;
+}
+.services .row .card .cb3{
+  height:150px;
+  background-image: url(../img/s3.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  border:2px solid #333;
+}
+.services .row .card .cb4{
+  height:150px;
+  background-image: url(../img/s4.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  border:2px solid #333;
+}
+.services h5 {
+  margin-top: 10px;
+  font-family: arial;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold; }
+/* services section ends here */
+/* INDEX.HTML PAGE ENDS HERE */
+/* footer section starts here */
+footer {
+
+  padding: 20px 0px;
+  background-color: #333; }
+
+footer .col-md-3 p {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 13px; }
+
+footer .box {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  margin-left: 10px;
+  margin-top: 8px; }
+
+footer .box i {
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
+  margin-top: 6px;
+  margin-left: 7px; }
+  footer .box img{
+    width:20px;
+    height:auto;
+    display: block;
+    margin: auto;
+    margin-top:30%;
+  }
+/* footer section ends here */
+/* SKILL.HTML PAGE STARTS HERE */
+/* skill section starts here */
+.skill{
+  padding-bottom:50px;
+}
+.skill .pb p{
+  margin-top:15px;
+}
+.skill .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.skill .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+
+.skill .title-image {
+  width:40%;
+  height: 250px;
+  margin: auto;
+  border: 2px solid #222;
+  background-image: url(../img/skill.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 40px; }
+/* skill.html page ends here */
+
+/* portfolio section starts here */
+/* PORTFOLIO.HTML PAGE STARTS HERE */
+.portfolio{
+  padding-bottom:50px;
+}
+.portfolio-title .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 40%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.portfolio-title .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+.portfolio .row .col-md-4 .box{
+  width:90%;
+  height:200px;
+  margin-top:20px;
+  background-color:red;
+}
+.portfolio .row .col-md-4 .card{
+  margin-top:30px;
+}
+.portfolio .row .col-md-4 .box1 .card-body{
+
+  background-image: url(../img/1.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box2 .card-body{
+  background-image: url(../img/2.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box3 .card-body{
+  background-image: url(../img/3.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box4 .card-body{
+  background-image: url(../img/4.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box5 .card-body{
+  background-image: url(../img/5.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box6 .card-body{
+  background-image: url(../img/6.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box7 .card-body{
+  background-image: url(../img/7.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box8 .card-body{
+  background-image: url(../img/8.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box9 .card-body{
+  background-image: url(../img/9.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box10 .card-body{
+  background-image: url(../img/10.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box11 .card-body{
+  background-image: url(../img/11.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box12 .card-body{
+  background-image: url(../img/12.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box13 .card-body{
+  background-image: url(../img/13.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.portfolio .row .col-md-4 .box14 .card-body{
+  background-image: url(../img/14.png);
+  height:150px;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+/* PORTFOLIO.HTML PAGE ENDS HERE */
+/* SERVICE.HTML PAGE STARTS HERE */
+.service{
+  padding-bottom:100px;
+}
+.service .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.service .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+
+.service .title-image {
+  width: 550px;
+  height: 250px;
+  margin: auto;
+  border: 2px solid #222;
+  background-image: url(../img/ser2.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 40px; }
+
+
+  .service .box-s{
+    width:90%;
+
+
+    border-radius:5px;
+
+  }
+
+.service .box-s h5{
+  display: block;
+  text-align: center;
+  color: #252525;
+  font-size:20px;
+  margin-top:20px;
+
+}
+.service .box-s p{
+  display: block;
+  text-align:justify;
+  color: #252525;
+  font-size:15px;
+  margin:0px 10px;
+
+}
+.service .box-s img{
+  width:90%;
+  height:200px;
+  display: block;
+  margin: auto;
+border:2px solid #222}
+
+.service .col-md-4{
+  margin-top:50px;
+}
+/* SERVICE.HTML PAGE ENDS HERE */
+/*  TESTIMONIAL.HTML STARTS HERE*/
+.pricing {
+  padding-bottom:50px;
+}
+.pricing .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.pricing .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+.pricing .p-box{
+  width:90%;
+  padding-bottom:40px;
+  background-color:#fff;
+  border:1px solid #252525;
+  overflow: hidden;
+  margin-top:20px;
+}
+.pricing .p-box-header{
+
+
+  background-color:#252525;
+  overflow: hidden;
+  padding-bottom:20px;
+}
+.pricing .p-box-header h3{
+  display: block;
+  text-align: center;
+  color: #fff;
+  margin-top:30px;
+
+}
+.pricing .p-box-header h2{
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.pricing .p-box-body{
+  width:100%;
+}
+.pricing .p-box-body ul{
+  margin-top:20px;
+}
+.pricing .p-box-body{
+  margin-top:50px;
+}
+
+.pricing .p-box-body  p{
+
+font-size:20px;
+text-align:center;
+}
+.pricing .p-box-body a{
+  width:40%;
+  display: block;
+  margin: auto;
+  margin-top:50px;
+  text-align:center;
+  padding:10px 15px;
+
+  background-color:#252525;
+  font-size:15px;
+  color:#fff;
+
+}
+
+.carousel{
+  padding-bottom:100px;
+}
+.carousel-item .c-box{
+  width:50%;
+  padding-bottom:50px;
+
+  display: block;
+  margin: auto;
+  margin-top:50px;
+
+
+
+}
+.carousel-item .c-box h5{
+  text-align: center;
+}
+.carousel-item .c-box h6{
+  text-align: center;
+  margin-top:20px;
+}
+.carousel-item .c-box p{
+  text-align: center;
+}
+.carousel-item .c-box .i-box-1{
+
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  display: block;
+  margin: auto;
+
+
+  background-image: url(../img/tanvir.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+
+}
+.carousel-item .c-box .i-box-2{
+
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  display: block;
+  margin: auto;
+
+
+
+  background-image: url(../img/asad.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+
+}
+.carousel-item .c-box .i-box-3{
+
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  display: block;
+  margin: auto;
+
+
+
+  background-image: url(../img/asraf.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+
+}
+.carousel-item .c-box .i-box-4{
+
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  display: block;
+  margin: auto;
+
+
+
+  background-image: url(../img/saurav.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+
+}
+/*  TESTIMONIAL.HTML ENDS HERE*/
+/* CONTACT.HTML SECTION STARTS HERE*/
+.contact{
+  padding-bottom:50px;
+}
+.contact .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.contact .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+  .contact .mid{
+    width:40%;
+    margin: auto;
+  }
+  .contact  .mid input{
+    border:1px solid #252525;
+    border-radius:0px;
+    padding:10px 0px;
+  }
+  .contact  .mid textarea{
+    border:1px solid #252525;
+    border-radius:0px;
+    padding:10px 0px;
+  }
+    .contact  .mid input::placeholder{
+    text-align: center;
+    }
+    .contact  .mid textarea::placeholder{
+    text-align: center;
+    }
+    .contact  .mid input[type="submit"]{
+    text-align: center;
+    background-color:#252525;
+    }
+    .contact  .mid input[type="submit"]:hover{
+
+    background-color:#fff;
+    color: #252525;
+    }
+/* CONTACT.HTML SECTION ENDS HERE*/
+.carousel .carousel-control-prev-icon{
+  background-color:#252525;
+  padding:5px;
+  background-image: url(../img/prev.jpg);
+}
+.carousel .carousel-control-next-icon{
+  background-color:#252525;
+  padding:5px;
+  background-image: url(../img/next.jpg);
+}
+/* HOME2.HTML SECTION STARTS HERE */
+.home2 .card{
+    margin-top:50px;
+}
+.home2 .card .card-body{
+  background-image: url(../img/home2-img.jpg);
+
+  height:400px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+
+}
+.home2 {
+  margin-top: 50px; }
+
+.home2 .img img {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin: auto;
+  border: 2px solid #222; }
+
+.home2 .col-md-6:nth-child(2) .text {
+  margin-top: 200px; }
+
+.home2 .col-md-6:nth-child(2) .text h5 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 15px;
+  color: #252525;
+  margin-bottom: 30px; }
+
+.home2 .col-md-6:nth-child(2) .text p {
+  font-family: poppins;
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 50px; }
+.home2 h1{
+  text-align: center;
+  font-size:20px;
+  margin-top:50px;
+  color: #252525;
+}
+.home2 P{
+
+  text-align:justify;
+
+}
+.home2 a {
+  display: block;
+  margin: auto;
+  width: 148px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #252525;
+  font-family: arial;
+  color: #252525;
+  border-radius: 5px;
+  font-size: 13px; }
+
+.home2 a:hover {
+  border: 2px solid #000;
+  color: #000;
+  text-decoration: none; }
+
+
+/* HOME2.HTML SECTION ENDS HERE */
+/* ABOUT.HTML PAGE STARTS HERE */
+.about{
+  padding-bottom:50px;
+}
+
+.about .pb p{
+  margin-top:15px;
+  text-align: center;
+}
+.about .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.about .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+
+.about .title-image {
+  width:40%;
+  height: 250px;
+  margin: auto;
+  border: 2px solid #222;
+  background-image: url(../img/870-420.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 40px; }
+
+/* ABOUT.HTML PAGE ENDS HERE */
+/* EDUCATION.HTML PAGE STARTS HERE */
+.education{
+  padding-bottom:50px;
+}
+.education .mid{
+  width:50%;
+  margin: auto;
+}
+.education .pb p{
+  margin-top:15px;
+  text-align: center;
+}
+.education .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.education .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+
+.education .title-image {
+  width:40%;
+  height: 250px;
+  margin: auto;
+  border: 2px solid #222;
+  background-image: url(../img/870-420.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 40px; }
+/* EDUCATION.HTML PAGE ENDS HERE */
+/* Experience.HTML PAGE STARTS HERE */
+.experience{
+  padding-bottom:50px;
+}
+.experience .mid{
+  width:50%;
+  margin: auto;
+}
+.experience .pb p{
+  margin-top:15px;
+  text-align: center;
+}
+.experience .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.experience .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+
+.experience .title-image {
+  width:40%;
+  height: 250px;
+  margin: auto;
+  border: 2px solid #222;
+  background-image: url(../img/870-420.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 40px; }
+/* blog.HTML PAGE ENDS HERE */
+.blog .row{
+  margin-top:50px;
+}
+.blog{
+  padding-bottom:50px;
+}
+
+.blog .pb p{
+  margin-top:15px;
+  text-align: center;
+}
+.blog .card {
+  color: #fff;
+  background-color: #252525;
+  text-align: center;
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.blog .card h3 {
+  font-family: poller;
+  margin-top: 5px; }
+.blog .row .b-image{
+    background-color:orange;
+
+}
+.blog .row .b-image .card{
+  width:100%;
+  height:100%;
+  background-image: url(../img/530-422.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  margin-top:0px;
+
+}
+.blog .col-md-4{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.blog .row .b-text{
+  border:1px solid #222;
+}
+
+  .blog .b-text h5{
+    font-family:haba ;
+    color: #222;
+    text-align:center;
+    font-size:18px;
+    margin-top:30px;
+  }
+  .blog .b-text p{
+
+    color: #222;
+    text-align:center;
+    font-size:16px;
+    margin-top:10px;
+    font-weight:normal;
+
+  }
+  .blog .b-text a{
+    width:30%;
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    text-align:center;
+    padding:5px 5px;
+    margin-bottom:30px;
+
+    background-color:#252525;
+    font-size:15px;
+    color:#fff;
+  }
+
+
+/* blog.HTML PAGE ENDS HERE */
+/* 404 page starts here */
+.not-found h2{
+  margin-top:80px;
+  text-align: center;
+  font-family: poller;
+  font-size:150px;
+}
+.not-found h5{
+
+  text-align: center;
+  font-family: poller;
+
+}
+.not-found P{
+  margin-top:30px;
+  text-align: center;
+  font-family: haba;
+
+}
+.not-found a {
+  display: block;
+  margin: auto;
+  width: 148px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #252525;
+  font-family: arial;
+  color: #252525;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-bottom:100px;}
+/* 404 page ends here */
